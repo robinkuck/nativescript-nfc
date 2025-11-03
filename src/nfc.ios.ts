@@ -189,7 +189,6 @@ class NFCNDEFReaderSessionDelegateImpl
     session: NFCNDEFReaderSession,
     tags: NSArray<NFCNDEFTag> | NFCNDEFTag[]
   ): void {
-    /*
     // TODO prolly remember the tags for when the app wants to write to it (also: check Android impl for possibly sth similar)
     const nfcNdefTag = tags[0];
     session.connectToTagCompletionHandler(nfcNdefTag, (error: NSError) => {
